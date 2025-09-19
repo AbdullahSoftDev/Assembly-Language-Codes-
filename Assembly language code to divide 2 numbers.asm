@@ -5,7 +5,8 @@ Include Irvine32.inc
 main PROC
 mov eax,100
 mov ebx,13
-sub eax,ebx
+mov edx,0
+div ebx
 call writeint
 main endp
 end main

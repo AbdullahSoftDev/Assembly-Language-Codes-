@@ -3,9 +3,9 @@ Include Irvine32.inc
 .data
 .code
 main PROC
-mov eax,100
-mov ebx,13
-sub eax,ebx
+mov eax,10
+mov ebx,2
+add eax,ebx
 call writeint
 main endp
 end main
